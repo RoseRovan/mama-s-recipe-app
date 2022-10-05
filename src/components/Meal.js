@@ -1,6 +1,6 @@
 import React, { useEffect, useState }  from "react";
-import MealItem from "./mealItem";
-import RecipeIndex from "./recipeIndex";
+import MealItem from "./MealItem";
+import RecipeIndex from "./RecipeIndex";
 
 const Meal=() =>{
     const [url, setUrl] = useState("https://www.themealdb.com/api/json/v1/1/search.php?f=a");
