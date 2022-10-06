@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bona Nova', serif;
+}
+body{
+    background-color: hsl(286, 100%, 50%);
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.heading h1{
+    color: whitesmoke;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    margin: 1rem;
+}
+.heading h2{
+    color: blue;
+    padding-bottom: 2rem;
+}
+.search-bar{
+    margin: 1rem 0;
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius:  10px;
+    padding: 0.3rem 1rem;
+}
+.indexContainer{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    width: 80%;
+    margin: 2.5rem;
+}
+.container{
+    width: 80%;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit,minimax(150px,1fr));
+    grid-gap: 2rem;
+    justify-content: space-around;
+}
+.card{
+    width: 180px;
+    border-radius: 1rem;
+    background-color: #030e12;
+    padding: 5px;   
+}
+img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card h3{
+    color: white;
+    font-size: 19px;
+
+}
+.numBoxContainer{
+    display: flex;
+    margin: 2.5rem o;
+}
+
+.numBox:hover {
+    cursor: pointer;
+    background-color: #505050;
+  }  
+.numBox{
+    width: 50px;
+    height: 30px;
+    background-color: #030e12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 5px 0 5px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.content img{
+    width: 100%;
+    height: 600px;
+}
+.content .inner-content{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    height: 200px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.recipe-details{
+    width: 70%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ingredients{
+    flex-basis: 40%;
+}
+.instructions{
+    flex-basis: 1000px;
+    text-align: justify;
+    overflow: hidden;
+    height: 400px;
+    margin-left: 10rem;
+}
+.ingredients h4{
+    margin-top: 1.5rem;
+    font-weight: bold;
+    margin-right: 5rem;
+}
+iframe{
+    height: 300px;
+    width: 50%;
+}
+.video{
+    width: 200%;
+    margin: 3rem auto;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
