@@ -35,7 +35,7 @@ A recipe finder app that can be used to learn how to cook and what to budget/sho
 Unzip the downloaded files in a folder of choice. *Open the index.html file from the zipped file with any browser. 
 #### LIVE LINK
 
-Or you can access the web application directly via this [LINK.]()
+Or you can access the web application directly via this [LINK.](https://tangerine-cheesecake-c4c71d.netlify.app/)
 #### DEPENDENCIES
 1.Assets
 2.index.html
